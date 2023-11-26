@@ -1,0 +1,172 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: static;
+}
+.logo{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+.menu{
+        display: flex;
+}
+
+.menu a{
+    color: rgb(19, 8, 8);
+    text-decoration: none;
+    padding: 14px 16px ;
+    display: block;
+}
+.menu a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+
+}
+
+
+.dropdown-content{
+    color: #000;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    background-color:#ddd ;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.search{
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.icon{
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+}
+
+/* flexbanner begins */
+
+.flex-banner{
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: rgba(243, 252, 252, 0.966);
+    color: rgb(8, 8, 8);
+}
+
+.left-div{
+    padding: 20px;
+    text-align: left;
+}
+
+.left-div h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.left-div p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.left-div button{
+    background-color: rgb(8, 235, 84);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* foot - design */
+
+.foot{
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: black;
+    color: white;
+}
+
+.first-left, .sec-left, .third-left, .fourth-left, .fift-left{
+    flex: 1;
+    padding: 20px;
+}
+
+.foot h4{
+    color: yellow;
+    font-size: 24px;
+    margin-left: 60px;
+    margin-top: 60px;
+    
+}
+
+li{
+   
+    margin-left: 60px;
+    list-style-type: none;
+  
+}
+
+.img1{
+    margin-left: 60px;
+    margin-top: 60px;
+    height: 200px; 
+    width: 150px;
+    border-radius: 250px;
+}
+ li a{
+    text-decoration: none;
+    color: white;
+ }
+.bottom-line{
+    bottom: -130px;
+    height: 1px;
+    width: 80%;
+    border:1px solid green;
+    /* color: rgb(55, 255, 5); */
+    position:absolute;
+}
